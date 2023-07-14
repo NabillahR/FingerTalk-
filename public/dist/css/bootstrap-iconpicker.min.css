@@ -1,0 +1,132 @@
+/*!========================================================================
+* File: bootstrap-iconpicker.min.css v1.10.0 by @victor-valencia
+* https://victor-valencia.github.com/bootstrap-iconpicker
+* ========================================================================
+* Copyright 2013-2017 Victor Valencia Rico.
+* Licensed under MIT license.
+* https://github.com/victor-valencia/bootstrap-iconpicker/blob/master/LICENSE
+* ========================================================================
+*/
+
+.iconpicker .caret {
+    margin-left:10px!important;
+}
+
+.iconpicker {
+    min-width:60px;
+}
+
+.iconpicker input.search-control {
+    margin-bottom:6px;
+    margin-top:6px;
+}
+
+div.iconpicker.left .table-icons {
+    margin-right:auto;
+}
+
+div.iconpicker.center .table-icons {
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.iconpicker.right .table-icons {
+    margin-left:auto
+}
+
+.table-icons .btn {
+    min-height:30px;
+    min-width:35px;
+    text-align:center;
+    padding:0;
+    margin:2px;
+}
+
+.table-icons td {
+    min-width:39px;
+}
+
+.popover {
+    max-width:inherit!important;
+    top: 14%;
+    left: 41%;
+}
+
+.iconpicker-popover {
+    z-index:1050!important;
+}
+
+.iconpicker-popover .search-control {
+    margin-bottom:6px;
+    margin-top:6px;
+}
+
+@media screen and (max-width: 2560px) and (max-height: 2153px) {
+    .popover {
+        top: 9%;
+        left: 41%;
+    }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 1174px) {
+    .popover {
+        top: 16%;
+        left: 34%;
+    }
+}
+
+@media screen and (max-height: 861px) {
+    .popover {
+        top: 25%;
+        left: 34%;
+    }
+}
+
+@media screen and (max-width: 1440px) and (max-height: 861px) {
+    .popover {
+        top: 25%;
+        left: 34%;
+    }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 861px) {
+    .popover {
+        top: 22%;
+        left: 27%;
+    }
+}
+
+@media screen and (max-width: 575px) and (max-height: 861px) {
+    .popover {
+        top: 19%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 646px) {
+    .popover {
+        top: 29%;
+        left: 19%;
+    }
+}
+
+@media screen and (max-width: 575px) and (max-height: 646px) {
+    .popover {
+        top: 26%;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 575px) and (max-height: 646px) {
+    .popover {
+        top: 26%;
+        left: 6%;
+    }
+}
+
+@media screen and (max-width: 375px) and (max-height: 646px) {
+    .popover {
+        top: 26%;
+        left: 7%;
+    }
+}

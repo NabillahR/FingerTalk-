@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&family=Roboto&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+    border-bottom: 1px rgba(0, 0, 0, 0.25) solid;
+}
+
+.add-shadow {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 136, 145)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav > li > a, .faq {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 38px;
+
+    color: #008891;
+}
+
+.faq {
+    margin-left: 50px;
+}
+
+.navbar-nav > li > .active, .navbar-nav > li > a:hover {
+    font-weight: 900;
+
+    color: #00666d !important;
+}
+
+.navbar-left {
+    margin-left: 50px;
+}
+
+.dropdown-user > li > a {
+    padding: 10px 30px;
+}
+
+.jumbotron {
+    background-color: #E7E7DE59;
+    min-height: 600px;
+}
+
+.kiri-jumbotron, .kiri-about {
+    padding-left: 80px;
+}
+
+.kiri-jumbotron > p {
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px !important;
+}
+
+.kiri-jumbotron > hr {
+    width: 250px;
+    border: 1px solid #000000;
+    transform: rotate(0deg);
+}
+
+.kanan-jumbotron {
+    padding-right: 0px !important;
+}
+
+.kanan-jumbotron > img {
+    margin-top: 24px;
+    height: 550px;
+}
+
+.about,
+.manfaat {
+    padding-top: 24px;
+}
+
+.about {
+    padding-bottom: 50px;
+}
+
+.about > hr,
+.manfaat > hr,
+.hr-auth {
+    margin: auto;
+    max-width: 200px;
+    border-top: 4px solid #008891;
+	text-align: center;
+}
+
+.about > hr:after,
+.manfaat > hr:after,
+.hr-auth:after {
+    content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #008891;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+
+.kiri-about > p {
+    font-size: 18px !important;
+}
+
+.about > .row > .kiri-about > p {
+    text-align: justify !important;
+}
+
+.kanan-about > img {
+    width: 500px;
+}
+
+/* Manfaat */
+.manfaat {
+    padding: 60px 0;
+}
+
+.manfaat-row {
+    margin: 0 40px;
+}
+
+.card-manfaat {
+    border: none !important;
+}
+
+.card-header-manfaat {
+    background: rgba(145, 227, 208, 0.29);
+    border-radius: 33px;
+}
+
+.manfaat-img {
+    max-width: 300px;
+    height: 250px;
+    padding: 20px;
+}
+
+.card-title-manfaat {
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.card-text-manfaat {
+    font-family: 'Dosis';
+    font-style: normal;
+    line-height: 23px;
+    text-align: center;
+}
+
+.home-section {
+    padding-right: 24px;
+}
+
+.pages {
+    color: #008891;
+}
+
+.breadcrumb {
+    margin-right: 13px;
+}
+
+.breadcrumb-item > a,
+.breadcrumb-item > a:focus,
+.breadcrumb-item > a:active,
+.breadcrumb-item > a:hover {
+    color: #008891;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copyrigth {
+    padding: 20px 0;
+    color: #ffffff;
+    text-align: center;
+    background-color: #008891;
+}
+
+/* Page Materi */
+.border {
+    border-color: #000000 !important;
+    border-width: 5px !important;
+    width: 1048px;
+    padding: 20px;
+}
+
+.title-materi {
+    padding-top: 30px;
+    font-weight: bold;
+    color: #002B5B;
+}
+
+.line-materi {
+    width: 99.4px;
+    border-radius: 25px;
+    border: 3px solid #002B5B;
+    transform: rotate(0.44deg);
+}
+
+.card-teori {
+    margin: 10px;
+    padding: 10px 20px;
+    width: auto;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 7px;
+    text-decoration: none;
+    background-color: #50b7c5;
+}
+
+.sub-materi {
+    color: #7e7e7e !important;
+}
+
+.card-teori:hover {
+    background-color: #038592;
+}
+
+/* About Page */
+.title-about-page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+
+    color: #008891;
+}
+
+.sub-title-about-page {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+
+    color: #0F3157 !important;
+}
+
+.paragraf-about-page {
+    text-align: justify;
+}
+
+.img-about-left {
+    display: none;
+}
+
+.img-about-right {
+    width: 100% !important;
+    max-height: 400px;
+}
+
+.explore-about {
+    margin-top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+
+    color: #003896;
+    text-align: center;
+}
+
+.all-img-explore {
+    text-align: center;
+}
+
+.img-explore {
+    max-height: 100px;
+}
+
+/* FAQ Page */
+.faqs > h5 {
+    color: #008891;
+    font-weight: bold;
+}
+
+.faqs > h3 {
+    color: #0F3157;
+    font-weight: bold;
+}
+
+.faqs > p {
+    color: rgba(0, 0, 0, 0.45);
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.faqs-right-content {
+    padding-left: 100px;
+}
+
+.faqs-content > div {
+    position: absolute;
+    background-color: rgba(0, 136, 145, 0.29);
+    border-radius: 15px;
+    padding: 10px 15px;
+    color: #008891;
+}
+
+.faqs-content > h5 {
+    margin-top: 3.5rem !important;
+    font-weight: bold;
+}
+
+.faqs-content > p {
+    color: rgba(0, 0, 0, 0.45);
+    font-family: 'Dosis';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    max-width: 80%;
+}
+
+.faqs-right-content > p {
+    max-width: 100% !important;
+}
+
+.another-question > div > p {
+    color: rgba(0, 0, 0, 0.53);
+}
+
+.another-question > div > a {
+    background-color: #00587A;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-top: 3%;
+}
+
+.another-question > div > a:hover {
+    background-color: #003f58;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 5px 15px;
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 1024px) {
+    .faqs-right-content {
+        padding-left: 75px !important;
+    }
+
+    .another-question > div > a {
+        margin-top: 9% !important;
+    }
+}
+
+@media screen and (min-width: 990px) {
+    .another-question > div > a {
+        margin-top: 4% !important;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .another-question > div > a {
+        margin-top: 13% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Home Page */
+    .navbar-left > li > a,
+    .navbar-right {
+        text-align: center;
+    }
+    
+    .jumbotron {
+        display: flex;
+        display: -ms-flex;
+        flex-direction: column;
+        background-color: #E7E7DE59;
+    }
+
+    .jumbotron .kiri-jumbotron {
+        order: 2;
+    }
+
+    .jumbotron .kanan-jumbotron {
+        order: 1;
+    }
+
+    .kiri-jumbotron {
+        margin-top: 24px;
+    }
+
+    .kiri-jumbotron > p {
+        font-size: 32px !important;
+    }
+
+    .kiri-jumbotron > hr {
+        width: auto !important;
+    }
+
+    .kanan-jumbotron > img {
+        height: auto;
+    }
+
+    .kiri-about > p {
+        margin-right: 60px;
+    }
+
+    .kanan-about {
+        display: block;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .card-manfaat {
+        margin: 10px 0;
+    }
+    
+    .manfaat-img {
+        max-width: 300px;
+        height: 250px;
+        padding: 20px;
+    }
+    
+    .card-title-manfaat {
+        font-family: 'Dosis';
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    
+    .card-text-manfaat {
+        font-family: 'Dosis';
+        font-style: normal;
+        line-height: 23px;
+        text-align: center;
+    }
+
+    /* Page Materi */
+    .gambar-teori {
+        padding-right: 13px !important;
+    }
+
+    /* Page FAQS */
+    .faqs-right-content {
+        padding-left: 15px !important;
+        margin: 20px 0;
+    }
+    
+    .another-question > div > a {
+        margin-top: 0 !important;
+        width: 100%;
+    }
+}
